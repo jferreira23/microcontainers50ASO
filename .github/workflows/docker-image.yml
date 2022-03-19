@@ -1,0 +1,7 @@
+- name: DockerHub Build And Push
+  uses: Abhishek-070/Dockerhub-Build-Push@v1.0
+  
+on:
+  push:
+    branches:
+      - jferreira23-patch-1
