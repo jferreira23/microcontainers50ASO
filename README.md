@@ -4,8 +4,8 @@ Example Project on how to build and develop REST API with NodeJS and MongoDB
 
 # como subir
 
-docker-compose build
-docker-compose up
+- docker-compose build
+- docker-compose up
 
 # para parar os serviços:
 
