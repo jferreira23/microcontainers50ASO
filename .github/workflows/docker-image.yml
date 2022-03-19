@@ -1,15 +1,7 @@
-name: Docker Image CI
-
+- name: DockerHub Build And Push
+  uses: Abhishek-070/Dockerhub-Build-Push@v1.0
+  
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag nodejs-api:$(date +%s)
+    branches:
+      - jferreira23-patch-1
