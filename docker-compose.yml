@@ -1,9 +1,7 @@
 version: '3.7'
 services:
   nodejs-api:
-    build:
-      context: ./
-      dockerfile: Dockerfile
+    image: jca2323/fiap-mba:microcontainer50aso
     ports:
       - "3081:3081"
     container_name: nodejs-api
